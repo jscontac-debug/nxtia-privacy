@@ -3,53 +3,154 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eliminación de cuenta y datos - CoviTools</title>
+  <meta name="robots" content="index, follow">
+
+  <title>Eliminación de cuenta y datos | NXT.IA</title>
 
   <style>
+    :root {
+      --primary: #176b45;
+      --primary-dark: #0f5033;
+      --background: #f5f7f6;
+      --text: #202522;
+      --muted: #626b66;
+      --border: #dde4e0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      max-width: 850px;
-      margin: 40px auto;
-      padding: 0 20px;
-      color: #222;
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   Helvetica, Arial, sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.65;
     }
 
-    h1, h2 {
-      color: #16833b;
+    header {
+      background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+      color: white;
+      padding: 55px 20px;
+      text-align: center;
     }
 
-    .box {
-      background: #f5f5f5;
-      padding: 20px;
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 2.3rem;
+    }
+
+    header p {
+      margin: 0;
+      opacity: 0.9;
+      font-size: 1.05rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 35px auto;
+      background: white;
+      padding: 45px;
+      border-radius: 14px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+    }
+
+    h2 {
+      color: var(--primary-dark);
+      margin-top: 38px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h2:first-of-type {
+      margin-top: 15px;
+    }
+
+    a {
+      color: var(--primary);
+    }
+
+    .updated {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 30px;
+    }
+
+    .notice {
+      background: #f0f7f3;
+      border-left: 4px solid var(--primary);
+      padding: 15px 18px;
+      margin: 25px 0;
+      border-radius: 4px;
+    }
+
+    .contact {
+      background: #f5f7f6;
+      padding: 18px;
       border-radius: 8px;
       margin: 20px 0;
     }
 
-    a {
-      color: #1267c4;
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 10px 20px 40px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 700px) {
+      main {
+        margin: 0;
+        padding: 28px 20px;
+        border-radius: 0;
+      }
+
+      header {
+        padding: 40px 20px;
+      }
+
+      header h1 {
+        font-size: 1.9rem;
+      }
     }
   </style>
 </head>
 
 <body>
 
-  <h1>Eliminación de cuenta y datos de CoviTools</h1>
+<header>
+  <h1>NXT.IA</h1>
+  <p>Eliminación de cuenta y datos</p>
+</header>
 
-  <p>
-    CoviTools, aplicación desarrollada por NXT.IA, permite a sus usuarios
-    solicitar la eliminación de su cuenta y de los datos personales asociados
-    a ella.
+<main>
+
+  <p class="updated">
+    Última actualización: 15 de agosto de 2026
   </p>
 
-  <h2>Cómo solicitar la eliminación</h2>
-
   <p>
-    Para solicitar la eliminación de tu cuenta de CoviTools y de los datos
-    personales asociados, envía un correo electrónico a:
+    Esta página explica cómo los usuarios de NXT.IA pueden solicitar
+    la eliminación de su cuenta de acceso y de los datos personales
+    asociados a ella.
   </p>
 
-  <div class="box">
+  <div class="notice">
+    Las cuentas de NXT.IA son creadas y administradas externamente
+    mediante los sistemas de autenticación utilizados por la aplicación.
+    Los usuarios no crean directamente una cuenta desde NXT.IA.
+  </div>
+
+  <h2>1. Cómo solicitar la eliminación</h2>
+
+  <p>
+    Para solicitar la eliminación de tu cuenta de NXT.IA y de los
+    datos personales asociados, envía un correo electrónico a:
+  </p>
+
+  <div class="contact">
     <strong>
       <a href="mailto:nextools.soporte@outlook.es">
         nextools.soporte@outlook.es
@@ -58,61 +159,104 @@
   </div>
 
   <p>
-    En el asunto del mensaje indica:
-    <strong>"Eliminación de cuenta CoviTools"</strong>.
+    Indica en el asunto del mensaje:
+    <strong>“Eliminación de cuenta NXT.IA”</strong>.
   </p>
 
   <p>
-    La solicitud debe enviarse desde la dirección de correo electrónico
-    asociada a la cuenta de CoviTools cuya eliminación se solicita, para
-    permitir la verificación de la identidad del solicitante.
+    Para poder verificar la identidad del solicitante, la petición deberá
+    enviarse desde la dirección de correo electrónico asociada a la cuenta
+    de NXT.IA cuya eliminación se solicita.
   </p>
 
-  <h2>Datos que se eliminarán</h2>
+  <h2>2. Datos que se eliminarán</h2>
 
-  <p>Una vez verificada la solicitud, se eliminarán:</p>
+  <p>
+    Una vez verificada la solicitud, se procederá, cuando corresponda,
+    a eliminar:
+  </p>
 
   <ul>
-    <li>La cuenta de acceso a CoviTools.</li>
-    <li>La dirección de correo electrónico asociada a la cuenta.</li>
-    <li>Los identificadores de usuario asociados al acceso a CoviTools.</li>
-    <li>Los datos personales vinculados a la cuenta que no deban conservarse por obligación legal.</li>
+    <li>La cuenta utilizada para acceder a NXT.IA.</li>
+    <li>La dirección de correo electrónico asociada a dicha cuenta.</li>
+    <li>Los identificadores asociados al acceso del usuario.</li>
+    <li>
+      Otros datos personales vinculados directamente a la cuenta que
+      no deban conservarse por motivos legales, técnicos o de seguridad.
+    </li>
   </ul>
 
-  <h2>Plazo de eliminación</h2>
+  <h2>3. Datos almacenados en el dispositivo</h2>
 
   <p>
-    La solicitud será procesada y los datos correspondientes serán eliminados
-    en un plazo máximo de 30 días desde la verificación de la solicitud.
-  </p>
-
-  <h2>Datos que pueden conservarse</h2>
-
-  <p>
-    Determinados datos podrán conservarse durante el tiempo estrictamente
-    necesario cuando exista una obligación legal, de seguridad, prevención
-    del fraude o defensa frente a posibles reclamaciones. Finalizado dicho
-    periodo, serán eliminados.
-  </p>
-
-  <h2>Contacto</h2>
-
-  <p>
-    Para cualquier consulta relacionada con la privacidad o la eliminación
-    de datos de CoviTools:
+    NXT.IA puede almacenar localmente en el dispositivo información
+    necesaria para su funcionamiento, como preferencias, formularios en
+    curso, historial, fotografías asociadas y documentos generados.
   </p>
 
   <p>
+    Estos datos locales pueden eliminarse mediante las funciones disponibles
+    en la aplicación, eliminando los datos de NXT.IA desde los ajustes de
+    Android o desinstalando la aplicación, según el tipo de información.
+  </p>
+
+  <h2>4. Plazo de eliminación</h2>
+
+  <p>
+    Las solicitudes válidas de eliminación serán procesadas en un plazo
+    máximo de 30 días desde que pueda verificarse correctamente la identidad
+    del solicitante y el alcance de la petición.
+  </p>
+
+  <h2>5. Datos que pueden conservarse</h2>
+
+  <p>
+    Determinada información podrá conservarse durante el tiempo estrictamente
+    necesario cuando sea preciso para cumplir obligaciones legales, mantener
+    la seguridad de los servicios, prevenir abusos o fraude, resolver
+    incidencias técnicas o atender posibles reclamaciones.
+  </p>
+
+  <p>
+    Una vez finalizada la finalidad que justifique su conservación, dicha
+    información será eliminada o dejará de conservarse de forma identificable,
+    según corresponda.
+  </p>
+
+  <h2>6. Cierre de sesión</h2>
+
+  <p>
+    Cerrar sesión en NXT.IA no supone automáticamente la eliminación de la
+    cuenta. Si el usuario desea eliminar su cuenta y los datos personales
+    asociados deberá realizar la solicitud mediante el procedimiento
+    indicado en esta página.
+  </p>
+
+  <h2>7. Contacto</h2>
+
+  <p>
+    Para cualquier consulta relacionada con la eliminación de cuentas,
+    privacidad o tratamiento de datos en NXT.IA:
+  </p>
+
+  <div class="contact">
     <a href="mailto:nextools.soporte@outlook.es">
       nextools.soporte@outlook.es
     </a>
-  </p>
-
-  <hr>
+  </div>
 
   <p>
-    <small>Última actualización: 15 de agosto de 2026.</small>
+    También puedes consultar la
+    <a href="https://jscontac-debug.github.io/nxtia-privacy/">
+      Política de Privacidad de NXT.IA
+    </a>.
   </p>
+
+</main>
+
+<footer>
+  © 2026 NXT.IA · Eliminación de cuenta y datos
+</footer>
 
 </body>
 </html>
